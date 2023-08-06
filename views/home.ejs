@@ -38,6 +38,19 @@
             background-color: #ddd;
             color: black;
         }
+        button{
+            color:#ddd;
+            background-color: green;
+            padding:5px
+        }
+        .form1{
+            padding: 10px;
+            margin: 20px;
+        }
+        button:hover{
+            background-color: blue;
+            
+        }
     </style>
 </head>
 <body>
@@ -48,12 +61,20 @@
     <a href="#services">Services</a>
     <a href="/contact">Contact</a>
 </div>
+<div class="form1">
+        <form action="">
 
-<form action="">
-    <input type="text" placeholder=" username"  name="" id="" > <br>
-    <input type="password" placeholder="password" name="" id=""> <br>
-    <button>log in</button>
-</form>
+            <label  for="username">Username</label>
+            <input type="text" placeholder=" username"  name="" id="" > 
+            <br>
+            <br>
+            <label for="password">Password</label>
+            <input type="password" placeholder="password" name="" id=""> <br>
+            <input type="submit">
+            <button style="float: left;">sign up
+            </button>
+        </form>
+</div>
 
 </body>
 </html>
