@@ -1,8 +1,14 @@
 const express = require ('express')
 const app = express()
 
+
+
+require("./model/index");
+
 //setting up ejs 
 app.set('view engine','ejs' )
+
+
 
 
 
