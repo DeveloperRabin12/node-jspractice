@@ -13,8 +13,8 @@ app.set('view engine','ejs' )
 
 
 app.get('/',(req,res)=>{
-    res.render('home',{name:"Rabin"})
-    res.render('home',{name:"Rabin",age:22})
+    res.render('home')
+    //res.render('home',{name:"Rabin",age:22})
    
 });
 
