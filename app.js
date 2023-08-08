@@ -34,7 +34,7 @@ app.post("/register", async(req, res) => {
 
   // database ma halnu paryo
   await  users.create({
-    title: name, // first name vaneko column name ho, second name vaneko form bata aako value
+    name : name, // first name vaneko column name ho, second name vaneko form bata aako value
     password : password
   })
 
